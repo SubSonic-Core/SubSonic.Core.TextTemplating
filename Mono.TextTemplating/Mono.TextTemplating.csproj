@@ -27,6 +27,14 @@ This package allows embedding the T4 engine in an application.
     <RepositoryUrl>https://github.com/SubSonic-Core/SubSonic.Core.TextTemplating</RepositoryUrl>
     <NeutralLanguage>en</NeutralLanguage>
     <AssemblyName>SubSonic.Core.TextTemplating</AssemblyName>
+    <PackageReleaseNotes>1. Assembly Could not be loaded cause of path is rooted.
+2. host.standardAssemblyReference could not be an array
+3. resolve assemblies loaded in memory
+4. resolve assemblies from netcore runtime
+5. build tt for net5 and net45
+6. parameter to fource roslyn compiler
+</PackageReleaseNotes>
+    <Version>2.2.1-preview</Version>
   </PropertyGroup>
 
   <ItemGroup>
